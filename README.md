@@ -2,7 +2,7 @@
 
 Download The Code
 =================
-Put Folder on your computer 
+- Put Folder on your computer 
 Open file explorer and navigate to the downloaded folder 
 Open a CMD or Gitbash here 
 
