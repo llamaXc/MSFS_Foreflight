@@ -1,0 +1,7 @@
+﻿  RequestData.cpp
+E:\MSFS_SDK\Samples\SimConnectSamples\RequestData\RequestData.cpp(21,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\MSFS_SDK\Samples\SimConnectSamples\RequestData\RequestData.cpp(36,2): warning C4091: 'static ': ignored on left of 'DATA_DEFINE_ID' when no variable is declared
+E:\MSFS_SDK\Samples\SimConnectSamples\RequestData\RequestData.cpp(63,2): warning C4091: 'static ': ignored on left of 'DATA_REQUEST_ID' when no variable is declared
+E:\MSFS_SDK\Samples\SimConnectSamples\RequestData\RequestData.cpp(100,74): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\MSFS_SDK\Samples\SimConnectSamples\RequestData\RequestData.cpp(103,74): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+LINK : fatal error LNK1104: cannot open file 'E:\MSFS_SDK\Samples\SimConnectSamples\RequestData\x64\Release\RequestData.exe'

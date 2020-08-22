@@ -1,0 +1,4 @@
+E:\MSFS_SDK\Samples\SimConnectSamples\RequestData\x64\Debug\RequestData.exe
+E:\MSFS_SDK\Samples\SimConnectSamples\RequestData\x64\Debug\RequestData.pdb
+C:\Users\Preston Meade\Desktop\Code\MSFS_Foreflight\x64\Debug\ForeFlightSupport.exe
+C:\Users\Preston Meade\Desktop\Code\MSFS_Foreflight\x64\Debug\ForeFlightSupport.pdb
