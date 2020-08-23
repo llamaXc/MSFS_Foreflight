@@ -14,7 +14,7 @@ For those wishing to just run
 	- Find broadcast ip [Helpful calculator here](https://remotemonitoringsystems.ca/broadcast.php)
 - Run **ForeFlightSupport.exe <ip_of_foreflight_device or broadcast_ip>**
 - Example Direct IP: **ForeFlightSupport.exe 192.168.1.5**
-- Example Broadcat IP: **ForeFlightSupport.exe 192.168.1.255**
+- Example Broadcast IP: **ForeFlightSupport.exe 192.168.1.255**
 - Close by exiting bash window/console 
 
 # Build and Run
