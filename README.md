@@ -1,30 +1,32 @@
-#MSFS Foreflight support 
+# MSFS2020 ForeFlight Support
 
-Download The Code
-=================
-- Put Folder on your computer 
-- Open file explorer and navigate to the downloaded folder 
-- Open a CMD or Gitbash here 
+This application was made to send sim data from MSFS2020 to ForeFlight. It sends attitude and position data at a constient rate to enable smooth tracking and live data as your fly in MSFS2020.
 
-Get your broadcast ip
-==================
-1. Get your broadcast ip 
-- Open CMD or GitBash
-- Type: ipconfig
+# Download and Run
 
-Website to help: https://remotemonitoringsystems.ca/broadcast.php 
-- Get your IpV4 Address (Mine: 192.168. 1. 8)
-- Get your Subnet Mask  (Mine: 255.255.255.0)
+For those wishing to just run 
 
-- If subnet has 255, put the ipv4 number for this section between the . and .
-- If subnet has 0, put 255.
-- Example of my desired ip: 192.168.1.255
+- Download the repo to your machine
+- Locate the **MSFS_Foreflight/MSFS_Release** folder
+- Open a GitBash/PowerShell/CMD console
+-  **Optional** Find broadcast ip
+	- Run **ipconfg** 
+	- Find broadcast ip [Helpful calculator here](https://remotemonitoringsystems.ca/broadcast.php)
+- Run **ForeFlightSupport.exe <ip_of_foreflight_device or broadcast_ip>**
+- Example Direct IP: **ForeFlightSupport.exe 192.168.1.5**
+- Example Broadcat IP: **ForeFlightSupport.exe 192.168.1.255**
+- Close by exiting bash window/console 
 
-Run
-===============
-- NOTE: replace 192.168.1.255 with your broadcast ip
--Now launch the exe:
--Type: ForeFlightSupport.exe 192.168.1.255
+# Build and Run
+### Requirments 
+- [Windows Development Kit 10 ](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/)
+- [Winsock2](https://docs.microsoft.com/en-us/windows/win32/winsock/getting-started-with-winsock)
+- [MSFS2020 SDK](https://fs2020.surclaro.com/msfs2020-sdk-is-here-start-developing-fs2020-add-ons/)
+- SimConnect DLL/LIB (Include with MSFS2020 SDK)
+- [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019)
 
-
+For those wishing to build and add on features 
+- Download the repo
+- Open  **ForeFlightSupport.sln** with Visual Studio 
+- Build and run 
 
